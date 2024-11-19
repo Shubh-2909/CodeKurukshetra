@@ -44,7 +44,7 @@ const ClockComp = ({ setCustomVariants }) => {
   }, []);
 
   return (
-    <div className="md:mt-2 mt-4 z-10">
+    <div className="md:mt-2 mt-[30px] z-10">
       <Clock
         setCustomVariants={setCustomVariants}
         timerDays={timerDays}

@@ -10,9 +10,9 @@ const Timeline = () => {
   return (
     <div
       id="schedule"
-      className="bg-[rgba(26,21,5,0.6)] relative  md:px-12 sm:px-8 px-4 w-[100%] min-h-[100vh]"
+      className="bg-[#00000080] relative  md:px-12 sm:px-8 px-4 w-[100%] min-h-[100vh]"
     >
-      <h1 className="text-center mb-8 font-[Varela] text-[#ee2a7b] font-bold text-5xl">
+      <h1 className="text-center mb-8 font-[Varela] text-[#8F8EE9] font-bold text-5xl">
         TIMELINE
       </h1>
       <VerticalTimeline>
@@ -24,7 +24,7 @@ const Timeline = () => {
           iconStyle={{ background: "rgb(36,36,36,1)", color: "#fff" }}
           icon={<IoIosSchool className="text-slate-100" />}
         >
-          <h1 className=" font-bold text-xl text-yellow-500">
+          <h1 className=" font-bold text-xl text-[#72F37B]">
             REGISTRATION BEGINS
           </h1>
           <p>
@@ -53,7 +53,7 @@ const Timeline = () => {
           iconStyle={{ background: "rgb(36,36,36,1)", color: "#fff" }}
           icon={<IoIosSchool className="text-slate-100" />}
         >
-          <h1 className="text-yellow-500 font-bold text-xl">
+          <h1 className="text-[#72F37B] font-bold text-xl">
             Code Kurukshetra MAIN EVENT
           </h1>
           <p>
@@ -69,7 +69,7 @@ const Timeline = () => {
           iconStyle={{ background: "rgb(36,36,36,1)", color: "#fff" }}
           icon={<IoIosSchool className="text-slate-100" />}
         >
-          <h1 className="text-yellow-500 font-bold text-xl">
+          <h1 className="text-[#72F37B] font-bold text-xl">
             RESULT DECLARATION
           </h1>
           <p>

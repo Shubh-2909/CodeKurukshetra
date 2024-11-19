@@ -55,10 +55,10 @@ const Navbar = () => {
               smooth
               to="#about"
               className={`${
-                hash === "#about" ? "text-[#ee2a7b]" : "text-white"
+                hash === "#about" ? "text-[#8F8EE9]" : "text-white"
               } ${
                 menuOpen ? "text-3xl" : "text-xl "
-              } mx-6 hover:text-[#ee2a7b] transition-all`}
+              } mx-6 hover:text-[#8F8EE9] transition-all`}
             >
               About
             </Link>
@@ -69,10 +69,10 @@ const Navbar = () => {
               smooth
               to="#schedule"
               className={`${
-                hash === "#schedule" ? "text-[#ee2a7b]" : "text-white"
+                hash === "#schedule" ? "text-[#8F8EE9]" : "text-white"
               }  ${
                 menuOpen ? "text-3xl" : "text-xl "
-              } mx-6 hover:text-[#ee2a7b] transition-all`}
+              } mx-6 hover:text-[#8F8EE9] transition-all`}
             >
               Schedule
             </Link>
@@ -83,43 +83,43 @@ const Navbar = () => {
               onClick={() => setMenuOpen(false)}
               to="#faq"
               className={`${
-                hash === "#faq" ? "text-[#ee2a7b]" : "text-white"
+                hash === "#faq" ? "text-[#8F8EE9]" : "text-white"
               }  ${
                 menuOpen ? "text-3xl" : "text-xl "
-              } mx-6 hover:text-[#ee2a7b] transition-all`}
+              } mx-6 hover:text-[#8F8EE9] transition-all`}
             >
               FAQ's
             </Link>
           </li>
-          {/* <li className={`${menuOpen && "my-3"}`}>
+          <li className={`${menuOpen && "my-3"}`}>
             <Link
               onClick={() => setMenuOpen(false)}
               smooth
               to="#sponsor"
               className={`${
-                hash === "#sponsor" ? "text-[#ee2a7b]" : "text-white"
+                hash === "#sponsor" ? "text-[#8F8EE9]" : "text-white"
               }  ${
                 menuOpen ? "text-3xl" : "text-xl "
-              } mx-6 hover:text-[#ee2a7b] transition-all`}
+              } mx-6 hover:text-[#8F8EE9] transition-all`}
             >
               Sponsors
             </Link>
-          </li> */}
-          {/* <li className={`${menuOpen && "my-3"}`}>
+          </li>
+          <li className={`${menuOpen && "my-3"}`}>
             <Link
               onClick={() => setMenuOpen(false)}
               smooth
-              target={'_blank'}
+              target={"_blank"}
               to="https://drive.google.com/file/d/10QeDlV-XRIkiAAstKLLi1NQdTLksT-Gy/view"
               className={`${
-                hash === "#contact" ? "text-[#ee2a7b]" : "text-white"
+                hash === "#contact" ? "text-[#8F8EE9]" : "text-white"
               }  ${
                 menuOpen ? "text-3xl" : "text-xl "
-              } mx-6 hover:text-[#ee2a7b] transition-all`}
+              } mx-6 hover:text-[#8F8EE9] transition-all`}
             >
               Rules
             </Link>
-          </li> */}
+          </li>
         </ul>
       </div>
     </div>

@@ -61,7 +61,7 @@ const Hero = ({ customVariants, setCustomVariants }) => {
   const handleMouseLeaved = () => setCustomVariants("default");
   return (
     <>
-      <div className="w-[100%] h-[100vh] fixed bg-[url('./assets/bg.jpg')] bg-cover bg-no-repeat">
+      <div className="w-[100%] h-[100vh] fixed bg-[url('./assets/bg2.jpeg')] bg-cover bg-no-repeat">
         <motion.div
           initial={{ x: -200 }}
           variants={astroVariants}
@@ -76,7 +76,7 @@ const Hero = ({ customVariants, setCustomVariants }) => {
         </motion.div>
       </div>
 
-      <div className="bg-[rgba(26,21,5,0.6)] relative  w-[100%] h-[100vh] flex-col flex items-center justify-center">
+      <div className="bg-[#00000080] relative  w-[100%] h-[100vh] flex-col flex items-center justify-center">
         <span
           onMouseEnter={handleMouseEntered}
           onMouseLeave={handleMouseLeaved}
@@ -85,11 +85,11 @@ const Hero = ({ customVariants, setCustomVariants }) => {
           Code Kurukshetra
         </span>
         <ClockComp setCustomVariants={setCustomVariants} />
-        {/* <Link
+        <Link
           target={"_blank"}
           to={"https://hack2skill.com/hack/houseofhackers"}
         >
-          <button className="register_btn mt-4">
+          <button className="register_btn mt-[52px] bg-[#7473C5]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -104,7 +104,7 @@ const Hero = ({ customVariants, setCustomVariants }) => {
             </svg>
             <span>Register Here</span>
           </button>
-        </Link> */}
+        </Link>
 
         {/* <motion.div
           variants={variants}

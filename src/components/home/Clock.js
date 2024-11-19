@@ -6,7 +6,7 @@ const Clock = ({
   timerMinutes,
   timerSeconds,
   setCustomVariants,
-  countdown
+  countdown,
 }) => {
   const timer = [
     {
@@ -31,11 +31,20 @@ const Clock = ({
   const handleMouseLeaved = () => setCustomVariants("default");
   return (
     <div>
-      <div className={`flex items-center justify-center ${countdown && 'h-[100vh]'}`}>
+      <div
+        className={`flex items-center justify-center md:gap-[50px] ${
+          countdown && "h-[100vh]"
+        }`}
+      >
         {timer.map((item, i) => {
           return (
             <section key={i} className="flex flex-col items-center mx-2 ">
-              <div className="md:w-28 md:h-28 sm:h-20 sm:w-20 w-16 h-16 rounded-lg flex items-center justify-center shadow-blue-500 shadow-lg">
+              <div
+                className="md:w-28 md:h-28 sm:h-20 sm:w-20 w-16 h-16 rounded-lg flex items-center justify-center"
+                style={{
+                  boxShadow: "0px 16px 34px 4px #9594DC80",
+                }}
+              >
                 <p
                   onMouseEnter={handleMouseEntered}
                   onMouseLeave={handleMouseLeaved}
@@ -44,7 +53,7 @@ const Clock = ({
                   {item.time}
                 </p>
               </div>
-              <small className="text-yellow-500 mt-2 text-lg">
+              <small className="text-[#72F37B] mt-2 text-lg">
                 {item.prompt}
               </small>
             </section>

@@ -11,7 +11,7 @@ const MiddleFooter = () => {
         <Link
           smooth
           to="#about"
-          className={`mx-6 hover:text-[#ee2a7b] transition-all text-lg font-[Urbanist]`}
+          className={` hover:text-[#8F8EE9] transition-all text-lg font-[Urbanist]`}
         >
           About
         </Link>
@@ -20,7 +20,7 @@ const MiddleFooter = () => {
         <Link
           smooth
           to="#schedule"
-          className={`mx-6 hover:text-[#ee2a7b] transition-all text-lg font-[Urbanist]`}
+          className={` hover:text-[#8F8EE9] transition-all text-lg font-[Urbanist]`}
         >
           Schedule
         </Link>
@@ -29,16 +29,16 @@ const MiddleFooter = () => {
         <Link
           smooth
           to="#faq"
-          className={`mx-6 hover:text-[#ee2a7b] transition-all text-lg font-[Urbanist]`}
+          className={` hover:text-[#8F8EE9] transition-all text-lg font-[Urbanist]`}
         >
           FAQ's
         </Link>
       </li>
-      {/* <li className="list-none">
+      <li className="list-none">
         <Link
           smooth
           to="#sponsor"
-          className={` mx-6 hover:text-[#ee2a7b] transition-all text-lg font-[Urbanist]`}
+          className={`  hover:text-[#8F8EE9] transition-all text-lg font-[Urbanist]`}
         >
           Sponsors
         </Link>
@@ -48,11 +48,11 @@ const MiddleFooter = () => {
           smooth
           target={"_blank"}
           to="https://drive.google.com/file/d/10QeDlV-XRIkiAAstKLLi1NQdTLksT-Gy/view"
-          className={` mx-6 hover:text-[#ee2a7b] transition-all text-lg font-[Urbanist]`}
+          className={`  hover:text-[#8F8EE9] transition-all text-lg font-[Urbanist]`}
         >
           Rules
         </Link>
-      </li> */}
+      </li>
     </div>
   );
 };

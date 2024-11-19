@@ -20,8 +20,8 @@ const Prize = () => {
     },
   ];
   return (
-    <div className="bg-[rgba(26,21,5,0.6)] relative py-10 md:px-20 sm:px-8 px-4  w-[100%] ">
-      <h1 className="text-center mb-8 font-[Varela] text-[#ee2a7b] font-bold text-5xl">
+    <div className="bg-[#00000080] relative py-10 md:px-20 sm:px-8 px-4  w-[100%] ">
+      <h1 className="text-center mb-8 font-[Varela] text-[#8F8EE9] font-bold text-5xl">
         Prizes
       </h1>
       {/* <div className="w-full flex items-center justify-center"> */}

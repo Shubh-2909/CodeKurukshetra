@@ -5,14 +5,14 @@
   box-sizing: border-box;
   /* cursor: none; */
 }
-.count{
-  background-image: url('./assets/countdown.png');
+.count {
+  background-image: url("./assets/countdown.png");
 }
 ::-webkit-scrollbar {
   width: 8px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #ee2a7b;
+  background: #8f8ee9;
   border-radius: 2px;
 }
 
@@ -37,8 +37,7 @@
   font-size: 17px;
   padding: 0.8em 1.3em 0.8em 0.9em;
   color: white;
-  background: #ad5389;
-  background: linear-gradient(to right, #ce3374, #ee2a7b);
+  background: #7473c5;
   border: none;
   letter-spacing: 0.05em;
   border-radius: 16px;
@@ -64,13 +63,13 @@
 
 .fold-btn {
   position: relative;
-  background-color: #ee2a7b;
-  padding: 8px 16px;
+  background-color: #7473c5;
+  box-shadow: 0px 8px 6px 0px #00000040;
+  padding: 16px 24px;
   text-decoration: none;
   border: none;
-  border-radius: 0.5em;
+  border-radius: 16px;
   color: #dedede;
-  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
 }
 
 .fold-btn::before {
